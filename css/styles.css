@@ -15,7 +15,7 @@
   --border-color: #eeeeee;
   --background-img-color: #c4c4c4;
   --border-second-color: #afb1b8;
-  --border-portfolio-color: #ececec;
+  --border-main-color: #ececec;
 }
 body {
   background-color: var(--primary-white-color);
@@ -42,6 +42,9 @@ body {
   text-decoration: none;
 }
 /* header*/
+.header {
+  border-bottom: 1px solid var(--border-main-color);
+}
 .page-header {
   display: flex;
   align-items: center;
@@ -528,9 +531,6 @@ footer {
   right: 28px;
 }
 /* PORTFOLIO */
-.portfolio-header {
-  border-bottom: 1px solid var(--border-portfolio-color);
-}
 .filter-section {
   padding-top: 94px;
   padding-bottom: 94px;
